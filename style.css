@@ -1,0 +1,224 @@
+body {
+    width: 100%;
+    height: 600px;
+    padding: 5px;
+    background-image: url(image/pexels-lucas-pezeta-5403252.jpg);
+    background-size: cover;
+}
+
+.labare {
+    width: 98%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2px;
+
+}
+
+.logo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1 0 140px;
+    min-width: 20%;
+}
+
+.bare {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.5s;
+    flex: 1 10 500px;
+}
+
+.part3 {
+    width: 23%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.logotext {
+    color: #10E410;
+    font-size: 40px;
+    font-weight: 900;
+    filter: drop-shadow(1px 5px 2px #ff0000);
+}
+
+.amghar {
+    width: 23%;
+    height: 97%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #10E410;
+    width: 50%;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.3s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+a:hover {
+    width: 100%;
+    background-color: #10E410;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(1px 1px 15px #FF0000);
+}
+
+.tigrimage {
+    margin-top: 50px;
+    filter: drop-shadow(1px 1px 25px #FF0000);
+}
+
+.loginbutton {
+    width: 60%;
+    height: 80%;
+    background-color: #10E410;
+    border: transparent;
+    border-radius: 30px;
+    border-bottom: solid 4px #ffffff;
+    transition: 0.2s;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.loginbutton:hover {
+    width: 90%;
+
+}
+
+.loginbutton:active {
+    background-color: rgb(255, 255, 255);
+}
+
+.buttons {
+    margin-top: 100px;
+    position: relative;
+}
+
+.iiinouotusdhv {
+    color: #ffffff;
+    padding: 10px;
+    width: 30%;
+    height: 300px;
+    border: solid 1px #fff;
+    border-radius: 20px;
+    margin-top: 100px;
+    backdrop-filter: blur(2px);
+}
+
+.continpur {
+    width: 100%;
+    margin-top: 40px;
+    height: 20%;
+}
+
+input {
+    width: 96%;
+    height: 60%;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 3px solid #10E410;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: #00e300;
+
+}
+
+input::placeholder {
+    color: #10E410;
+    font-size: 15px;
+
+}
+
+input:focus {
+    border: transparent;
+    background-color: transparent;
+}
+
+input:active {
+    border: transparent;
+}
+
+label {
+    font-weight: 900;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+#btn {
+    width: 97%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Btn {
+    width: 40%;
+    height: 40%;
+    background-color: #0DFF4E;
+    border: transparent;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s;
+}
+
+#Btn:hover {
+    width: 80%;
+}
+
+.num33 {
+    width: 30%;
+    height: 300px;
+    border: solid 1px #fff;
+    margin-right: 100px;
+    margin-top: 100px;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+span {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 900;
+}
